@@ -2,10 +2,9 @@ import React from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import AboutPages from "./pages/AboutPages";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-
-const App = () => {
+ import Contact from "./components/Contact";
+ import Skills from "./components/Skills";
+  const App = () => {
   return (
     <>
       <Header />
@@ -19,9 +18,9 @@ const App = () => {
       </div>
 
       <div id="skills">
-        <Skills />
+        <Skills/>
       </div>
-
+    
       <div id="contact">
         <Contact />
       </div>

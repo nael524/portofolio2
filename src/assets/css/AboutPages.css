@@ -1,33 +1,53 @@
-.aboutme{
-    color: black;
-    font-weight: bold;
-    font-size: 90px;
-    position: relative;
-    top: 80px;
-    margin-left: 100px;
-    
+.about-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px 100px;
+  gap: 60px;
 }
-.aboutme1{
-    color: rgb(0, 0, 0);
-    font-size: 30px;
-    background-color: yellow;
-    height: 15px;
-    top: 50px;
-    position: absolute;
-    margin-left: 20px;
+
+.about-left img.senja1 {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-.texabout{
-    font-size: 30px;
-    width: 600px;
-    font-weight: normal;
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
- }
- .senja1{
-    width: 400px;
-    position: absolute;
-    height: 500px; 
-    top: -100px;
-    left: 800px;
-    border-radius: 10px;
- }
+
+.about-right {
+  max-width: 600px;
+}
+
+.about-who {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 5px;
+}
+
+.aboutme {
+  font-size: 60px;
+  font-weight: bold;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.aboutme1 {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  height: 10px;
+  width: 100%;
+  background-color: yellow;
+  z-index: -1;
+}
+
+.texabout {
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  text-align: justify;
+}
