@@ -1,0 +1,33 @@
+.aboutme{
+    color: black;
+    font-weight: bold;
+    font-size: 90px;
+    position: relative;
+    top: 80px;
+    margin-left: 100px;
+    
+}
+.aboutme1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    background-color: yellow;
+    height: 15px;
+    top: 50px;
+    position: absolute;
+    margin-left: 20px;
+}
+.texabout{
+    font-size: 30px;
+    width: 600px;
+    font-weight: normal;
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+ }
+ .senja1{
+    width: 400px;
+    position: absolute;
+    height: 500px; 
+    top: -100px;
+    left: 800px;
+    border-radius: 10px;
+ }

@@ -1,0 +1,27 @@
+.skill{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 60px;
+    position: relative;
+    margin-left: 90px;
+    top: 310px;
+    text-align: center;
+}
+.skill1{
+    display: flex;
+    list-style: none;
+    gap :140px;
+}
+ 
+ 
+.skill67{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -40px;
+    left: 400px;
+    text-align: left;
+    list-style: upper-alpha;
+    
+}
+ 

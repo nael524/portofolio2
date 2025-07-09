@@ -1,0 +1,37 @@
+ .status{
+  background-color: darkgray;
+  width: 100%;
+  position: absolute;
+  text-decoration: none;
+  display: flex;
+  color: white;
+  height: 70px;
+   
+  font-size: 20px;
+  z-index: 20;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ .status12{
+  top: 19px;
+  left: 50px;
+  position: relative;
+ }
+ .status a{
+  text-decoration: none;
+  color: white;
+  color: black;
+ }
+ .status1{
+  position: relative;
+  left: 300px;
+  margin-left: 150px;
+  top: 19px;
+ }
+ .status button {
+  position: relative;
+  left: 600px;
+  height: 30px;
+  border-radius: 10px;
+  top: 16px;
+  font-weight: bold;
+ }
